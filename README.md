@@ -1,4 +1,4 @@
-# Brazilian E-commerce Analytics
+# Data Visualization Assignment 1
 
 ## Company
 Olist E-commerce Platform
@@ -8,15 +8,8 @@ Olist is a Brazilian e-commerce platform that connects small businesses to marke
 
 ## How to Run the Project
 1. Clone this repository
-2. Install required dependencies: `pip install -r requirements.txt`
-3. Set up MySQL database and import the dataset
-4. Run the Python script: `python scripts/main.py`
-
-## Tools and Resources
-- MySQL Database
-- Python 3.x with pandas, mysql-connector-python
-- Apache Superset (for future visualizations)
-- Brazilian E-commerce Dataset from Kaggle
+3. Set up PostgreSQL database and import the dataset(https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+4. Run the Python script: `python main.py`
 
 ## Database Schema
 ![ER Diagram](data_vis_erd.pgerd.png)
