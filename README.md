@@ -19,4 +19,4 @@ Olist is a Brazilian e-commerce platform that connects small businesses to marke
 - Brazilian E-commerce Dataset from Kaggle
 
 ## Database Schema
-![ER Diagram](/https://github.com/Ve1zevul/DataVisualization_Assignment1/blob/main/data_vis_erd.pgerd.png)
+![ER Diagram](/https://github.com/Ve1zevul/DataVisualization_Assignment1/blob/main/data_vis_erd.pgerd.png?raw=true)
