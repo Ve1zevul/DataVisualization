@@ -1,4 +1,4 @@
-# Data Visualization Assignment 1
+# Data Visualization
 
 ## Company
 Olist E-commerce Platform
