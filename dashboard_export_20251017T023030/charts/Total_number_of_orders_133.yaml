@@ -1,0 +1,53 @@
+slice_name: Total number of orders
+description: null
+certified_by: null
+certification_details: null
+viz_type: big_number_total
+params:
+  datasource: 30__table
+  viz_type: big_number_total
+  metric:
+    expressionType: SIMPLE
+    column:
+      advanced_data_type: null
+      certification_details: null
+      certified_by: null
+      column_name: order_id
+      description: null
+      expression: null
+      filterable: true
+      groupby: true
+      id: 793
+      is_certified: false
+      is_dttm: false
+      python_date_format: null
+      type: VARCHAR
+      type_generic: 1
+      verbose_name: null
+      warning_markdown: null
+    aggregate: COUNT_DISTINCT
+    sqlExpression: null
+    datasourceWarning: false
+    hasCustomLabel: false
+    label: COUNT_DISTINCT(order_id)
+    optionName: metric_txtxnz2kwrp_06zlrtwljcma
+  adhoc_filters:
+  - clause: WHERE
+    subject: order_purchase_timestamp
+    operator: TEMPORAL_RANGE
+    comparator: No filter
+    expressionType: SIMPLE
+  header_font_size: 0.4
+  subheader_font_size: 0.15
+  y_axis_format: SMART_NUMBER
+  time_format: smart_date
+  extra_form_data: {}
+  dashboards:
+  - 14
+query_context: '{"datasource":{"id":30,"type":"table"},"force":false,"queries":[{"filters":[{"col":"order_purchase_timestamp","op":"TEMPORAL_RANGE","val":"No
+  filter"}],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":[],"metrics":[{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"order_id","description":null,"expression":null,"filterable":true,"groupby":true,"id":793,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"VARCHAR","type_generic":1,"verbose_name":null,"warning_markdown":null},"aggregate":"COUNT_DISTINCT","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"COUNT_DISTINCT(order_id)","optionName":"metric_txtxnz2kwrp_06zlrtwljcma"}],"annotation_layers":[],"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"30__table","viz_type":"big_number_total","metric":{"expressionType":"SIMPLE","column":{"advanced_data_type":null,"certification_details":null,"certified_by":null,"column_name":"order_id","description":null,"expression":null,"filterable":true,"groupby":true,"id":793,"is_certified":false,"is_dttm":false,"python_date_format":null,"type":"VARCHAR","type_generic":1,"verbose_name":null,"warning_markdown":null},"aggregate":"COUNT_DISTINCT","sqlExpression":null,"datasourceWarning":false,"hasCustomLabel":false,"label":"COUNT_DISTINCT(order_id)","optionName":"metric_txtxnz2kwrp_06zlrtwljcma"},"adhoc_filters":[{"clause":"WHERE","subject":"order_purchase_timestamp","operator":"TEMPORAL_RANGE","comparator":"No
+  filter","expressionType":"SIMPLE"}],"header_font_size":0.4,"subheader_font_size":0.15,"y_axis_format":"SMART_NUMBER","time_format":"smart_date","extra_form_data":{},"dashboards":[14],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 673dfa7c-306a-4019-a095-0ce70f72900c
+version: 1.0.0
+dataset_uuid: e37f9afb-737f-4b6c-813a-78446b9cb4ec

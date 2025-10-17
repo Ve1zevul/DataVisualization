@@ -1,0 +1,70 @@
+table_name: Untitled Query 12 10/17/2025 05:34:53
+main_dttm_col: null
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: postgres
+schema: public
+sql: "SELECT \r\n    CONCAT('BR-', c.customer_state) AS customer_state,\r\n    COUNT(DISTINCT\
+  \ o.customer_id) AS customer_count,\r\n    SUM(pay.payment_value) AS total_revenue\r\
+  \nFROM orders o\r\nJOIN customers c ON o.customer_id = c.customer_id\r\nJOIN order_payments\
+  \ pay ON o.order_id = pay.order_id\r\nWHERE o.order_status != 'canceled'\r\nGROUP\
+  \ BY c.customer_state\r\nORDER BY customer_count DESC;"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: adaa6dd3-36e4-4c4e-8997-37159be1f42d
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: total_revenue
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: customer_count
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: LONGINTEGER
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: customer_state
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: STRING
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: 0afd4e97-a3bc-4434-9af1-3d72ddd853f7

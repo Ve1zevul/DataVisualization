@@ -1,0 +1,35 @@
+slice_name: Payment type distribution
+description: null
+certified_by: null
+certification_details: null
+viz_type: pie
+params:
+  datasource: 28__table
+  viz_type: pie
+  slice_id: 121
+  groupby:
+  - payment_type
+  metric: count
+  adhoc_filters: []
+  row_limit: 100
+  sort_by_metric: true
+  color_scheme: supersetAndPresetColors
+  show_labels_threshold: 5
+  show_legend: true
+  legendType: scroll
+  legendOrientation: top
+  label_type: key
+  number_format: SMART_NUMBER
+  date_format: smart_date
+  show_labels: true
+  labels_outside: true
+  outerRadius: 70
+  extra_form_data: {}
+  dashboards:
+  - 12
+  - 14
+query_context: '{"datasource":{"id":28,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["payment_type"],"metrics":["count"],"orderby":[["count",false]],"annotation_layers":[],"row_limit":100,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{}}],"form_data":{"datasource":"28__table","viz_type":"pie","slice_id":121,"groupby":["payment_type"],"metric":"count","adhoc_filters":[],"row_limit":100,"sort_by_metric":true,"color_scheme":"supersetAndPresetColors","show_labels_threshold":5,"show_legend":true,"legendType":"scroll","legendOrientation":"top","label_type":"key","number_format":"SMART_NUMBER","date_format":"smart_date","show_labels":true,"labels_outside":true,"outerRadius":70,"extra_form_data":{},"dashboards":[12,14],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 3225a0df-7094-4770-8352-e5a7014cac63
+version: 1.0.0
+dataset_uuid: fa7cd3c8-c14b-47ba-b854-9fd9312ba2bd

@@ -1,0 +1,57 @@
+table_name: Untitled Query 6
+main_dttm_col: order_month
+description: null
+default_endpoint: null
+offset: 0
+cache_timeout: null
+catalog: postgres
+schema: public
+sql: "SELECT\r\n    DATE_TRUNC('month', o.order_purchase_timestamp) AS order_month,\r\
+  \n    SUM(oi.price + oi.freight_value) AS total_revenue\r\nFROM orders o\r\nJOIN\
+  \ order_items oi\r\n    ON o.order_id = oi.order_id\r\nWHERE o.order_status = 'delivered'\r\
+  \nGROUP BY 1\r\nORDER BY 1;\r\n"
+params: null
+template_params: null
+filter_select_enabled: true
+fetch_values_predicate: null
+extra: null
+normalize_columns: false
+always_filter_main_dttm: false
+uuid: 38a19c7a-86f7-41a2-8f3e-52e65fdc37c5
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
+columns:
+- column_name: order_month
+  verbose_name: null
+  is_dttm: true
+  is_active: true
+  type: DATETIME
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+- column_name: total_revenue
+  verbose_name: null
+  is_dttm: false
+  is_active: true
+  type: FLOAT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: null
+version: 1.0.0
+database_uuid: 0afd4e97-a3bc-4434-9af1-3d72ddd853f7

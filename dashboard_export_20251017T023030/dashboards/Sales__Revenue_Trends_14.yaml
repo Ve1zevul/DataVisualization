@@ -1,0 +1,298 @@
+dashboard_title: Sales & Revenue Trends
+description: null
+css: ''
+slug: null
+certified_by: ''
+certification_details: ''
+published: false
+uuid: 4e4c6974-1385-4dfa-8a8b-51f4e1873da2
+position:
+  CHART-4Ts1y4oDgJrcojpnYe7vC:
+    children: []
+    id: CHART-4Ts1y4oDgJrcojpnYe7vC
+    meta:
+      chartId: 122
+      height: 50
+      sliceName: Top 10 Categories by orders
+      uuid: b589a573-1374-47d0-813e-d627b9183b55
+      width: 7
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-KeEdvTd9tbrK1mJhDBMQ7
+    type: CHART
+  CHART-explore-127-1:
+    children: []
+    id: CHART-explore-127-1
+    meta:
+      chartId: 127
+      height: 50
+      sliceName: Total revenue by month
+      uuid: d0ee3c14-83ef-45bf-8987-67fe3b4ba9a7
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-w1pZm1WxdovVzXs2t-qBG
+    type: CHART
+  CHART-explore-129-1:
+    children: []
+    id: CHART-explore-129-1
+    meta:
+      chartId: 129
+      height: 28
+      sliceName: Total revenue
+      uuid: 48d82ff3-1437-43be-8971-81a5693e8a4b
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-d-XDUoo6N1qb21wrMxWRB
+    type: CHART
+  CHART-explore-131-1:
+    children: []
+    id: CHART-explore-131-1
+    meta:
+      chartId: 131
+      height: 27
+      sliceName: AOV
+      uuid: fb6a88d7-6dfb-4ce4-84ae-dc0072ce13b1
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-d-XDUoo6N1qb21wrMxWRB
+    type: CHART
+  CHART-explore-132-1:
+    children: []
+    id: CHART-explore-132-1
+    meta:
+      chartId: 132
+      height: 29
+      sliceName: Number of active customers
+      uuid: 8384dd52-5562-46b0-88ed-eb8bfda58ee2
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-d-XDUoo6N1qb21wrMxWRB
+    type: CHART
+  CHART-explore-133-1:
+    children: []
+    id: CHART-explore-133-1
+    meta:
+      chartId: 133
+      height: 30
+      sliceName: Total number of orders
+      uuid: 673dfa7c-306a-4019-a095-0ce70f72900c
+      width: 3
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-d-XDUoo6N1qb21wrMxWRB
+    type: CHART
+  CHART-explore-135-1:
+    children: []
+    id: CHART-explore-135-1
+    meta:
+      chartId: 135
+      height: 50
+      sliceName: Revenue distribution by state
+      uuid: 6c2bc01b-e9b4-400c-9dac-b8646952ae3d
+      width: 12
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-Os2em8ZKL8cf4il7JeLAI
+    type: CHART
+  CHART-qbRz_5EoUaoLffJWJOZBG:
+    children: []
+    id: CHART-qbRz_5EoUaoLffJWJOZBG
+    meta:
+      chartId: 121
+      height: 50
+      sliceName: Payment type distribution
+      uuid: 3225a0df-7094-4770-8352-e5a7014cac63
+      width: 5
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-KeEdvTd9tbrK1mJhDBMQ7
+    type: CHART
+  DASHBOARD_VERSION_KEY: v2
+  GRID_ID:
+    children:
+    - ROW-d-XDUoo6N1qb21wrMxWRB
+    - ROW-w1pZm1WxdovVzXs2t-qBG
+    - ROW-KeEdvTd9tbrK1mJhDBMQ7
+    - ROW-Os2em8ZKL8cf4il7JeLAI
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Sales & Revenue Trends
+    type: HEADER
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  ROW-KeEdvTd9tbrK1mJhDBMQ7:
+    children:
+    - CHART-qbRz_5EoUaoLffJWJOZBG
+    - CHART-4Ts1y4oDgJrcojpnYe7vC
+    id: ROW-KeEdvTd9tbrK1mJhDBMQ7
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-Os2em8ZKL8cf4il7JeLAI:
+    children:
+    - CHART-explore-135-1
+    id: ROW-Os2em8ZKL8cf4il7JeLAI
+    meta:
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-d-XDUoo6N1qb21wrMxWRB:
+    children:
+    - CHART-explore-129-1
+    - CHART-explore-131-1
+    - CHART-explore-132-1
+    - CHART-explore-133-1
+    id: ROW-d-XDUoo6N1qb21wrMxWRB
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+  ROW-w1pZm1WxdovVzXs2t-qBG:
+    children:
+    - CHART-explore-127-1
+    id: ROW-w1pZm1WxdovVzXs2t-qBG
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    type: ROW
+metadata:
+  chart_configuration:
+    '121':
+      id: 121
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 122
+        - 127
+        - 129
+        - 131
+        - 132
+        - 133
+        - 135
+    '122':
+      id: 122
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 121
+        - 127
+        - 129
+        - 131
+        - 132
+        - 133
+        - 135
+    '127':
+      id: 127
+      crossFilters:
+        scope: global
+        chartsInScope:
+        - 121
+        - 122
+        - 129
+        - 131
+        - 132
+        - 133
+        - 135
+  global_chart_configuration:
+    scope:
+      rootPath:
+      - ROOT_ID
+      excluded: []
+    chartsInScope:
+    - 121
+    - 122
+    - 127
+    - 129
+    - 131
+    - 132
+    - 133
+    - 135
+  color_scheme: supersetAndPresetColors
+  refresh_frequency: 0
+  expanded_slices: {}
+  label_colors: {}
+  timed_refresh_immune_slices: []
+  cross_filters_enabled: true
+  default_filters: '{}'
+  color_scheme_domain:
+  - '#004960'
+  - '#2893B3'
+  - '#20A7C9'
+  - '#5CC0DA'
+  - '#7DCDE1'
+  - '#A9D3E1'
+  - '#C6ECE1'
+  - '#AAE2D2'
+  - '#71CFB4'
+  - '#2FC096'
+  - '#178F7A'
+  - '#067162'
+  shared_label_colors: []
+  map_label_colors:
+    credit_card: '#004960'
+    boleto: '#2893B3'
+    voucher: '#20A7C9'
+    debit_card: '#5CC0DA'
+    not_defined: '#7DCDE1'
+    SUM(total_revenue): '#004960'
+    SUM(total_orders): '#004960'
+    BR-AC: '#004960'
+    BR-AL: '#2893B3'
+    BR-AM: '#20A7C9'
+    BR-AP: '#5CC0DA'
+    BR-BA: '#7DCDE1'
+    BR-CE: '#A9D3E1'
+    BR-DF: '#C6ECE1'
+    BR-ES: '#AAE2D2'
+    BR-GO: '#71CFB4'
+    BR-MA: '#2FC096'
+    BR-MG: '#178F7A'
+    BR-MS: '#067162'
+    BR-MT: '#2893B3'
+    BR-PA: '#20A7C9'
+    BR-PB: '#5CC0DA'
+    BR-PE: '#7DCDE1'
+    BR-PI: '#A9D3E1'
+    BR-PR: '#C6ECE1'
+    BR-RJ: '#AAE2D2'
+    BR-RN: '#71CFB4'
+    BR-RO: '#2FC096'
+    BR-RR: '#178F7A'
+    BR-RS: '#067162'
+    BR-SC: '#067162'
+    BR-SE: '#2893B3'
+    BR-SP: '#20A7C9'
+    BR-TO: '#5CC0DA'
+version: 1.0.0
